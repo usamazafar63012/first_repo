@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 50, 0),rgba(0, 0, 50, 0)),url(images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: tahoma;
+}
+.text{
+    margin-top: 100px;
+    color: white;
+    text-shadow:5px 5px 5px black;
+    
+}
+.text h2{
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+.text h1{
+    color: white;
+    font-weight: bold;
+    font-size: 45px;
+}
+form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+.form-control{
+    width: 600px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid orangered;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+input{
+    height: 45px;
+}
+textarea{
+    height: 90px;
+}
+form .submit{
+    border: 1px solid orangered;
+    background: rgba(255, 69, 0, 0.5);
+    transition: all 0.6s linear;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+}
+form .submit:hover{
+    background: orangered;
+}
